@@ -91,3 +91,22 @@ Users can also share images with other apps using the sharing functionality. To 
 ## Contact
 
 If you have any questions or suggestions regarding this project, feel free to reach out to the project maintainer at `kishanvirani1@icloud.com`.
+
+## Screenshots 
+
+<img src = "https://github.com/thatskishan/gallery_app/assets/123537725/6a3a26ab-498c-419f-a665-3403d3c18724" width="200px">
+<img src = "https://github.com/thatskishan/gallery_app/assets/123537725/0615bdda-f3e3-4601-9c1a-cda92f698f66" width="200px">
+<img src = "https://github.com/thatskishan/gallery_app/assets/123537725/833c45f2-dd77-4c02-bb6a-f828a8c9cdcb" width="200px">
+<img src = "https://github.com/thatskishan/gallery_app/assets/123537725/2ddcc1dd-0f8c-4282-80d7-f722208227a4" width="200px">
+<img src = "https://github.com/thatskishan/gallery_app/assets/123537725/65b31bab-c696-4302-8512-f849c7d58fb6" width="200px">
+<img src = "https://github.com/thatskishan/gallery_app/assets/123537725/a53a9e42-742c-4d7b-b24f-8b6b003c48ae" width="200px">
+<img src = "https://github.com/thatskishan/gallery_app/assets/123537725/8f1cb830-a98d-464d-9488-359ab5e83288" width="200px">
+<img src = "https://github.com/thatskishan/gallery_app/assets/123537725/a944837b-a2e5-47f8-89b3-eade00057f77" width="200px">
+
+
+## Highlights
+
+<img src = "https://github.com/thatskishan/gallery_app/assets/123537725/8a380527-224a-4f8b-92e2-9786a596f4d0" width="200px">
+
+
+
