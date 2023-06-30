@@ -20,7 +20,7 @@ To run this app locally, please follow the steps below:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/flutter-gallery-app.git
+git clone https://github.com/thatskishan/gallery_app
 ```
 
 2. Navigate to the project directory:
@@ -65,7 +65,7 @@ The app allows users to download images from the Pixabay API. To download an ima
 
 1. Browse the gallery and select an image.
 
-2. Tap on the download button (e.g., an icon or a button) associated with the selected image.
+2. Tap on the download button associated with the selected image.
 
 3. The image will be downloaded and saved to the device's storage.
 
@@ -75,19 +75,12 @@ Users can also share images with other apps using the sharing functionality. To 
 
 1. Browse the gallery and select an image.
 
-2. Tap on the share button (e.g., an icon or a button) associated with the selected image.
+2. Tap on the share button associated with the selected image.
 
 3. Choose the desired app from the sharing options.
 
 4. The image will be shared with the selected app.
 
-## Contributing
-
-Contributions to this Flutter gallery app are welcome! If you find any issues or would like to add new features, please open an issue or submit a pull request on the GitHub repository.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
@@ -97,4 +90,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions or suggestions regarding this project, feel free to reach out to the project maintainer at `your-email@example.com`.
+If you have any questions or suggestions regarding this project, feel free to reach out to the project maintainer at `kishanvirani1@icloud.com`.
