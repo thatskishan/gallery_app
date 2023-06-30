@@ -1,16 +1,100 @@
-# gallery_app
+# Flutter Gallery App
 
-A new Flutter project.
+This is a Flutter gallery app that allows users to browse and download images from the Pixabay API. The app utilizes various packages such as `http`, `google_fonts`, `cached_network_image`, `share`, `fluttertoast`, and `provider`. The main functionalities of the app include downloading and sharing images.
 
-## Getting Started
+## Dependencies
 
-This project is a starting point for a Flutter application.
+The following dependencies are used in this project:
 
-A few resources to get you started if this is your first Flutter project:
+- `http`: A package for making HTTP requests to the Pixabay API to fetch images.
+- `google_fonts`: A package that provides a collection of fonts to be used in the app.
+- `cached_network_image`: A package for caching and displaying images from URLs.
+- `share`: A package for sharing content, such as images, with other apps.
+- `fluttertoast`: A package for displaying toast messages in the app.
+- `provider`: A package for state management in Flutter.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To run this app locally, please follow the steps below:
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/flutter-gallery-app.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd flutter-gallery-app
+```
+
+3. Install the dependencies:
+
+```
+flutter pub get
+```
+
+4. Run the app:
+
+```
+flutter run
+```
+
+Please make sure you have Flutter SDK installed and set up on your machine before running the app.
+
+## Configuration
+
+To use the Pixabay API in the app, you will need to obtain an API key. Follow these steps to configure the app:
+
+1. Visit the [Pixabay website](https://pixabay.com/api/docs/) and create an account if you don't have one.
+
+2. After logging in, go to the [API documentation](https://pixabay.com/api/docs/) to generate an API key.
+
+3. Open the `lib/utils/constants.dart` file in your project and replace the placeholder value with your Pixabay API key:
+
+```dart
+const String apiKey = 'YOUR_API_KEY';
+```
+
+## Functionality
+
+### Downloading Images
+
+The app allows users to download images from the Pixabay API. To download an image, follow these steps:
+
+1. Browse the gallery and select an image.
+
+2. Tap on the download button (e.g., an icon or a button) associated with the selected image.
+
+3. The image will be downloaded and saved to the device's storage.
+
+### Sharing Images
+
+Users can also share images with other apps using the sharing functionality. To share an image, follow these steps:
+
+1. Browse the gallery and select an image.
+
+2. Tap on the share button (e.g., an icon or a button) associated with the selected image.
+
+3. Choose the desired app from the sharing options.
+
+4. The image will be shared with the selected app.
+
+## Contributing
+
+Contributions to this Flutter gallery app are welcome! If you find any issues or would like to add new features, please open an issue or submit a pull request on the GitHub repository.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- This app was created as a learning project and utilizes the Pixabay API to showcase the use of HTTP requests, image caching, sharing, and state management in Flutter.
+
+- Special thanks to the developers and contributors of the `http`, `google_fonts`, `cached_network_image`, `share`, `fluttertoast`, and `provider` packages for their valuable contributions to the Flutter community.
+
+## Contact
+
+If you have any questions or suggestions regarding this project, feel free to reach out to the project maintainer at `your-email@example.com`.
