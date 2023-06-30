@@ -40,7 +40,7 @@ dependencies:
   cached_network_image: ^3.1.0
   share:
   fluttertoast:
-  flutter_staggered_grid_view: ^0.4.0
+  provider:
 
 dev_dependencies:
   flutter_test:

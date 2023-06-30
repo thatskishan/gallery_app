@@ -65,7 +65,7 @@ class _ImageViewerScreenState extends State<ImageViewerScreen> {
           Expanded(
             child: Image.network(
               widget.imageUrl,
-              fit: BoxFit.contain,
+              fit: BoxFit.fitHeight,
             ),
           ),
         ],

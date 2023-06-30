@@ -6,9 +6,11 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
+import 'package:provider/provider.dart';
 import 'package:share/share.dart';
 
 import '../../controllers/helpers/api_helper.dart';
+import '../../controllers/providers/theme_provider.dart';
 import '../../models/image_model.dart';
 import 'image_viewer.dart';
 
@@ -89,6 +91,8 @@ class _HomePageState extends State<HomePage> {
         actions: [
           IconButton(
             onPressed: () {
+              Provider.of<ThemeProvider>(context, listen: false).changeTheme();
+
               setState(() {
                 isDarkMode = !isDarkMode; // Toggle the mode
               });
